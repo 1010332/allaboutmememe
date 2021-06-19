@@ -1,0 +1,85 @@
+:root {
+  --amplify-primary-color: #0f9d58;
+  --amplify-primary-tint: #0f9d58;
+  --amplify-primary-shade: #0f9d58;
+  --amplify-secondary-color: #db4437;
+  --amplify-tertiary-color: #4285f4;
+  --amplify-font-family: "Rubik", "sans-serif";
+
+  /* --amplify-text-xxs: 1.25rem;
+    --amplify-text-xs: 1.31rem;
+    --amplify-text-sm: 1.375rem; */
+
+  --amplify-text-md: 1.5rem;
+  /* --amplify-text-md and --amplify-text-md-sub 
+    do not have to be the same */
+  /* --amplify-text-md-sub: 2.5rem;
+  
+    --amplify-text-lg: 2rem;
+    --amplify-text-xl: 3.5rem;
+    --amplify-text-xxl: 3rem; */
+
+  --google-blue: #4285f4;
+  --google-red: #db4437;
+  --google-yellow: #f4b400;
+  --google-green: #0f9d58;
+}
+* {
+  font-family: "Rubik", sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.blueBackground {
+  /* background-color: var(--google-blue); */
+  background-color: #f4b400;
+}
+.hideIt {
+  color: var(--google-blue);
+  cursor: default;
+  /* TODO 2021-03-18 Max Li. The following two do not work.
+    I want to make it to the far right. Not a big concern. 
+    stop working on it. */
+  /* text-align: right!;
+    float: right!; */
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  /* justify-content: space-between;
+  align-content: center;
+  justify-items: center; */
+}
+
+.gridItem {
+  border: darkgray solid 1px;
+  border-radius: 25px;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+.benefits {
+  background: var(--google-blue);
+  font-size: 150%;
+  padding: 1rem;
+  color: white;
+}
+.imageStyle {
+  padding-top: 20px;
+  width: 80px;
+}
+
+.textAlignCenter a {
+  color: var(--google-green);
+}
+
+.benefitItems {
+  padding: 40px;
+  font-size: 150%;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

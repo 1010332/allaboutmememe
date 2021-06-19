@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Max Li home page</title>
+    <style>
+      :root {
+        --google-blue: #4285f4;
+        --google-red: #db4437;
+        --google-yellow: #f4b400;
+        --google-green: #0f9d58;
+        --microsoft-orange-red: #f25022;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background: lightgray;
+        font-family: "Rubik", sans-serif;
+        /* font-family: 'Caveat', cursive; */
+        line-height: 1.5;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        padding: 5px;
+      }
+      .cursiveTitle {
+        font-family: "Caveat", cursive;
+        text-align: center;
+        font-size: 400%;
+        color: white;
+        background-color: black;
+      }
+      p {
+        padding: 5px;
+        text-align: justify;
+      }
+      .container {
+        margin: auto;
+        max-width: 700px;
+        text-align: left;
+      }
+
+      .center {
+        padding: 5px 0;
+        /* border: 1px solid green; */
+        text-align: center;
+      }
+      .imgClass {
+        width: 400px;
+        border-radius: 20px;
+        opacity: 0.4;
+        filter: grayscale(100%);
+      }
+      .imgClass:hover {
+        opacity: 1;
+        filter: none;
+        width: 600px;
+      }
+      #specialPicture {
+        opacity: 1;
+        filter: none;
+      }
+      .paddingVeryBottom {
+        padding-bottom: 60px;
+      }
+      .paddingVeryTop {
+        padding-top: 50px;
+      }
+      .btn1 {
+        padding: 15px;
+        margin: 15px;
+        font-size: xx-large;
+        background-color: var(--google-green);
+        color: var(--google-yellow);
+      }
+      .btn1:hover {
+        color: var(--google-red);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="cursiveTitle">All about me Me ME</h1>
+      <p class="paddingVeryTop">
+        Dr. Max Haifei Li (李海飞) was born and raised in China. His hometown is
+        Langtang, a small place where everyone knows everyone. Before he went to
+        Xi'an Jiaotong University in 1986, he had never seen a computer in his
+        life. However, he determined to study computer science and has been in
+        computer field for his professional career. His major areas are software
+        development and machine learning, but he also loves to fix computer
+        hardware. His professional activities can be found at
+        <a target="_blank" href="https://www.linkedin.com/in/max-li-36a6276a/"
+          >LinkedIn</a
+        >
+      </p>
+      <h1>The most recent picture:</h1>
+      <div class="center">
+        <img class="imgClass" src="./img/MaxLi2020.jpg" />
+      </div>
+      <div class="center"><button class="btn1">More Pictures</button></div>
+      <h1>When he was young:</h1>
+      <div class="center">
+        <img id="specialPicture" class="imgClass" src="./img/MaxLi1994.jpg" />
+      </div>
+      <h2>His favorite river is charles river:</h2>
+      <div class="center">
+        <img class="imgClass" src="./img/charles-river.jpg" />
+      </div>
+      <h1>School activities</h1>
+      <p>
+        He was a good student at schools. His GPA for the undergraduate degree
+        is about 3.1. It is not high GPA, but getting good GPA in a Chinese
+        university in 1980s is very difficult. His GPA for master's degree is
+        about 3.66, but his GPA for his doctoral degree is about 3.92. He always
+        told other people that he is not perfect. Why? Because for his doctoral
+        studies, he got all As except one B+. He always remembers the professor
+        who gave him a B+.
+      </p>
+      <h1>Family activities</h1>
+      <p>
+        Max was married to Xiaoli Liu, a Nurse Practioner who works in a nursing
+        home in Amesbury, MA. Together, they have two children: Joy Li, a
+        college junior who studies premed at UT Dlass, Benjamin Li, a high
+        school freshman at Andover High School. Benjamin Li has Autism and he
+        goes to school four times a week, instead of usual two times a week.
+      </p>
+      <h1>community services</h1>
+      <p>
+        Max attended Brentwood Baptist Church when he live in Franklin, TN. He
+        wants to attend CBCGB (Chinese Bible Church of Greater Boston) at
+        Lexington, MA, but he can only attend Sunday worship virtually because
+        of COVID-19. He was the president of a small non-profit organization
+        focusing on providing art therapy to underprevileged people.
+      </p>
+      <p class="paddingVeryBottom">
+        Max loves to watch college football, especially
+        <a href="https://floridagators.com/">Floria Gators</a>. Once a Gator,
+        always a Gator. He wears Gator gears all the time.
+      </p>
+    </div>
+  </body>
+</html>
